@@ -11,9 +11,9 @@ public class AutomationScripts extends ProjectMethods{
 			 	ProjectMethods.startReport("Login_To_SalesForce","/Users/huzaifazainuddin/desktop/report");
 				ProjectMethods.loginpage();
 				// Enter userName
-				ProjectMethods.enterText("//*[@id='username']", "huzaifa.aamir@tijaaratraabehah.com", "UserName");
+				ProjectMethods.enterText("//*[@id='username']", "test", "UserName");
 				// Enter Password
-				ProjectMethods.enterText("//*[@id='password']", "Hz7863354!", "Password");
+				ProjectMethods.enterText("//*[@id='password']", "pa$$w0rd!", "Password");
 				//Click Login Button
 				ProjectMethods.clickbutton("//*[@id='Login']", "Login to SFDC");
 				Thread.sleep(40000);
