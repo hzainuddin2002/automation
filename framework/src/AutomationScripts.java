@@ -55,7 +55,7 @@ public class AutomationScripts extends ProjectMethods{
 			 Thread.sleep(3000);
 			 ProjectMethods.clickbutton("//*[@id='forgot']/span[1]/a", "Forgot Password");
 			 Thread.sleep(4000);
-			 ProjectMethods.enterText("//*[@id='un']", "huzaifa.aamir@tijaaratraabehah.com", "User Name");
+			 ProjectMethods.enterText("//*[@id='un']", "user@user.com", "User Name");
 			 ProjectMethods.clickbutton("//*[@id='continue']", "Continue");
 			 ProjectMethods.Update_Report("Pass", "Forgot Password", "Entered fields to retrieve forgotten password");
 			 ProjectMethods.bw.close();
